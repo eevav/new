@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Game</title>
+    <style>
+    	* { padding: 0; margin: 0; }
+    canvas { background: #eee; display: block; margin: 0 auto; }
+    </style>
+</head>
+ <body onload="algus()">
+	 <h1>10 sekundit aega, kiirem võidab!</h1>
+		 <canvas id="tahvel" width="400" height="400"
+		 style="background-color:#a9e5d9"
+		 onmousedown="hiirAlla(event)" ></canvas><br />
+		 <div id="vastus1"></div>
+		 <div id="vastus2"></div>
+		 <div id="vastus3"></div>
+		 <input type="button" id="nupp1" value="Alusta" onclick="m2nguAlgus()" />
+		 
+	<div id="kiht1"></div>
+		 <input type="button" value="Vaatakella" onclick="loeVeebist(3)" />
+
+ </body>
+	<script src="js/app.js" type="text/javascript"></script>
+</html>
+
